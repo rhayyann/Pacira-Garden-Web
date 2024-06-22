@@ -1,0 +1,188 @@
+.contact-wrapper {
+    background-color: #019f82;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden; /* Prevent content overflow */
+    position: relative; /* Ensure relative positioning */
+}
+
+.contact-wrapper .section-left {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 0px 5%;
+    flex-direction: column;
+    gap: 50px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.contact-wrapper .section-left .row1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-wrapper .section-left .row1 .title {
+    width: 300px;
+    border-bottom: 4px solid #006351;
+}
+
+.contact-wrapper .section-left .row1 .title h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.contact-wrapper .section-left .row1 .list-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-wrapper .section-left .row1 .list-contact .location, 
+.contact-wrapper .section-left .row1 .list-contact .phone, 
+.contact-wrapper .section-left .row1 .list-contact .instagram, 
+.contact-wrapper .section-left .row1 .list-contact .whatsapp {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact-wrapper .section-left .row1 .list-contact i {
+    font-size: 28px;
+    color: #055d4d;
+}
+
+.contact-wrapper .section-left .row1 .list-contact .phone i {
+    font-size: 24px;
+}
+
+.contact-wrapper .section-left .row1 .list-contact p,
+.contact-wrapper .section-left .row1 .list-contact a {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.contact-wrapper .section-left .row1 .list-contact a:hover {
+    color: #006351;
+}
+
+.contact-wrapper .section-right {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.contact-wrapper .section-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .contact-wrapper .section-left .row1 {
+        gap: 50px;
+    }
+
+    .contact-wrapper .section-left .row1 .title {
+        width: 250px;
+    }
+
+    .contact-wrapper .section-left .row1 .title h1 {
+        font-size: 40px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact {
+        gap: 20px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact .location, 
+    .contact-wrapper .section-left .row1 .list-contact .phone, 
+    .contact-wrapper .section-left .row1 .list-contact .instagram, 
+    .contact-wrapper .section-left .row1 .list-contact .whatsapp {
+        gap: 20px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact i {
+        font-size: 28px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact .phone i {
+        font-size: 24px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact p,
+    .contact-wrapper .section-left .row1 .list-contact a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-wrapper .section-left .row1 {
+        gap: 30px;
+    }
+
+    .contact-wrapper .section-left .row1 .title {
+        width: 200px;
+        border-bottom: 3px solid #006351;
+    }
+
+    .contact-wrapper .section-left .row1 .title h1 {
+        font-size: 32px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact {
+        gap: 15px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact .location, 
+    .contact-wrapper .section-left .row1 .list-contact .phone, 
+    .contact-wrapper .section-left .row1 .list-contact .instagram, 
+    .contact-wrapper .section-left .row1 .list-contact .whatsapp {
+        gap: 18px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact i {
+        font-size: 24px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact .phone i {
+        font-size: 18px;
+    }
+
+    .contact-wrapper .section-left .row1 .list-contact p,
+    .contact-wrapper .section-left .row1 .list-contact a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+    .contact-wrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        overflow: auto; /* Prevent content overflow */
+    }
+
+    .contact-wrapper .section-left {
+        flex: 0 0 50%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding: 0px 5%;
+        flex-direction: column;
+        gap: 50px;
+        box-sizing: border-box; /* Ensure padding and border are included in width */
+    }
+
+    .contact-wrapper .section-right {
+        display: none;
+    }
+}
