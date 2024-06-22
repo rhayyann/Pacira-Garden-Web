@@ -112,6 +112,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
+    .services-container{
+        height: auto; 
+        padding: 100px 0px;
+    }
     /* .services-wrapper{
         gap: 70px;
     }

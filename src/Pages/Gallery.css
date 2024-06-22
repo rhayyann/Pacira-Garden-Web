@@ -1,5 +1,6 @@
 .icon{
-    color: #019f82;
+    /* color: #019f82; */
+    color: #FFFFFF;
     font-size: 40px;
     cursor: pointer;
 }
@@ -9,7 +10,7 @@
 }
 
 .gallery-container{
-    /* background-color: #019f82; */
+    background-color: #019f82;
     padding: 100px 5%;
 }
 
@@ -20,9 +21,10 @@
 
 .gallery-container .gallery-wrapper .row1 h1{
     font-size: 48px;
+    color: #FFFFFF;
     margin-bottom: 40px;
     padding-bottom: 5px;
-    /* border-bottom: 4px solid #0C3F36; */
+    border-bottom: 4px solid #0C3F36;
 }
 
 .gallery-container .gallery-wrapper .row2{
