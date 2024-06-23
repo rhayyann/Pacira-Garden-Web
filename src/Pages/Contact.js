@@ -13,11 +13,11 @@ function Contact() {
           <div className="list-contact">
               <div className="location">
                 <i class="fa-solid fa-location-dot"></i>
-                <p>Makassar, jl perintis kemerdekaan km 17b</p>
+                <p>Jl. Perintis Kemerdekaan Km.17, Kota Makassar</p>
               </div>   
               <div className="phone">
                 <i class="fa-solid fa-phone"></i>
-                <p>085395257703</p>
+                <p>085398012141</p>
               </div>
               <div className="instagram">
                 <i class="fa-brands fa-instagram"></i>

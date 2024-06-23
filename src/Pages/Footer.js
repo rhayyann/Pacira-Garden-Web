@@ -16,8 +16,14 @@ function Footer() {
                             <img src={Logo} alt="" />
                             <h1>PACIRA GARDEN</h1>
                         </div>
-                        <p>Jl. Perintis Kemerdekaan Km.17b, Kota Makassar</p>
-                        <p>085395257703</p>
+                        <p>Jl. Perintis Kemerdekaan Km.17, Kota Makassar</p>
+                        <p>085398012141</p>
+                    </div>
+                </div>
+                <div className="right-mobile">
+                    <h1>Find Us</h1>
+                    <div className="google-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3974.079950465056!2d119.51378147498183!3d-5.090773894886129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMDUnMjYuOCJTIDExOcKwMzAnNTguOSJF!5e0!3m2!1sen!2sid!4v1718957025060!5m2!1sen!2sid" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div className="column2">

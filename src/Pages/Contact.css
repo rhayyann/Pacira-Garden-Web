@@ -183,6 +183,20 @@
         box-sizing: border-box; /* Ensure padding and border are included in width */
     }
 
+    .contact-wrapper .section-left .row1 .title{
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-wrapper .section-left .row1 .title h1{
+        text-align: center;
+        text-decoration: solid underline #006351 2px;
+
+    }
+
     .contact-wrapper .section-right {
         display: none;
     }
