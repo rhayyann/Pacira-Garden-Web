@@ -80,7 +80,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 435px) {
     .faq-container {
         height: auto;
         padding: 80px 5%;

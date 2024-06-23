@@ -242,7 +242,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 435px) {
     .footer-container .footer-wrapper{
         display: flex;
         flex-direction: column;

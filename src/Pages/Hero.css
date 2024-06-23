@@ -82,7 +82,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 435px) {
     .hero-container .hero-wrapper .hero-left h1{
         /* font-family: "Crimson Pro", serif; */
         font-size: 40px;

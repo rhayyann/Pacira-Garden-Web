@@ -111,7 +111,7 @@
    
 }
 
-@media (min-width: 320px) and (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 435px) {
     .services-container{
         height: auto; 
         padding: 100px 0px;
