@@ -1,13 +1,15 @@
 import React from 'react'
 import './About.css'
-import AboutImage from '../Assets/pattern.png'
+import AboutImage from '../Assets/aboutus.png'
 
 function About() {
   return (
     <div className="about-container" id='About'>
         <div className="about-wrapper">
             <div className="section-left">
-                <img src={AboutImage} alt="" />
+                <div className="image-wrapper">
+                    <img src={AboutImage} alt="" />
+                </div>
             </div>
             <div className="section-right">
                 <div className="about-content">

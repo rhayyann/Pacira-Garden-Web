@@ -83,5 +83,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
-
+    .hero-container .hero-wrapper .hero-left h1{
+        /* font-family: "Crimson Pro", serif; */
+        font-size: 40px;
+        /* font-weight: 400;
+        color: #FFFFFF; */
+        text-align: center;
+    }
 }
