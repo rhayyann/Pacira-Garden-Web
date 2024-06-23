@@ -4,7 +4,7 @@ import products from '../Assets/mockData/products';
 import ProductCard from '../Component/ProductCard';
 
 function Gallery() {
-  const selectedProductIndices = [0, 1, 2, 3, 4, 5];
+  const selectedProductIndices = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const selectedProducts = selectedProductIndices.map((index) => products[index]);
 
   const productWrapperRef = useRef(null);
