@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <div className="navbar-wrapper">
       <div className="logo">
-        <img src={logo} alt="OACIRA GARDEN Logo" />
+        {/* <img src={logo} alt="OACIRA GARDEN Logo" /> */}
         <p>PACIRA GARDEN</p>
       </div>
       <div className="menu-wrapper">
